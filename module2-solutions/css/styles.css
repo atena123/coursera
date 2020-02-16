@@ -3,72 +3,43 @@
 }
 
 h1 {
-    font-size: 60px;
     text-align: center;
-}
-
-h2 {
-    float: right;
-    padding: 8px;
-    border-left: #000 solid 2px;
-    border-bottom: #000 solid 2px;
-    margin: 0;
-}
-
-.wrapper1 {
-    padding: 5px;
-    width: 25%;
-    text-align: center;
-}
-
-.wrapper2 {
-    padding: 5px;
-    width: 25%;
-    text-align: center;
-}
-
-.wrapper3 {
-    padding: 5px;
-    width: 25%;
-    text-align: center;
-}
-
-section {
-    float: left;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
 .box1, .box2, .box3 {
-    border: #000 solid 2px;
-    margin-bottom: 40px;
-    margin-left: 3px;
-    margin-right: 10px;
-
-} 
-
-.description {
-    padding: 20px;
-    text-align: center;
-    margin-top: 60px;
+    border: #000 solid 1px;
+    margin: 1%;
 }
+
+.row {
+    width: 100%;
+}
+
+
+
+/*----------Media Queries----------*/
+
 
 @media (min-width: 992px) {
     .box1, .box2, .box3 {
-        width: 33.33%;
+        float: left;
+        width: 31.33%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .box1, .box2 {
-        width: 50%;
+        width: 48%;
     }
 
     .box3 {
-        width: 100%;
+        width: 98%;
     }
-}
 
-@media (max-width: 767px) {
     .box1, .box2, .box3 {
-        width: 100%;
+        float: left;
     }
 }
+    
